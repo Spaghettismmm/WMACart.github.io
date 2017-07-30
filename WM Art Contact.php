@@ -77,7 +77,7 @@
 					  if (empty($errors)) { 
 					  $from = "From: WM Art Contact Us"; //Site name
 					  // Change this to your email address you want to form sent to
-					  $to = "willmac321@gmail.com"; 
+					  $to = "@gmail.com"; 
 					  $name=$firstname. ' ' .$lastname;
 					  $subject = "WMAC ART Comment from " . $name ;
 					  $message = $firstname. '<hr/>' . $lastname. '<hr/>' .$comment. "<hr/>Email: " . $email ;
