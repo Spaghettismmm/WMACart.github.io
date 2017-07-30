@@ -1,0 +1,54 @@
+body
+{background-color:white;
+font-family: "Helvetica Neue", sans-serif;
+color: black;
+}
+
+/*links and header*/
+a{color:black;}
+a:hover{opacity:0.7; }
+div.logo{display:inline-block;}
+div.topbar{display: inline-block; text-transform:uppercase; padding:35px 0; font-size:14px; letter-spacing: 1px; text-align:right; float:right;}
+header{margin-bottom:40px; height:auto;}
+li{display:inline-block; margin:20px 20px; }
+li a {text-decoration:none;}
+nav.menu{overflow:auto; float:left;}
+p.intro{font-size: 20px;}
+p.logo{font-size:30px; text-transform:uppercase; text-decoration:none; letter-spacing: 1px; text-align:left; }
+ul{list-style-type:none; margin:0; padding:0; overflow:hidden; border: solid black 1px;    border-radius: 4px;}
+
+/*social*/
+div.social{
+	padding-top:10px;
+	bottom:0;
+	left:0;
+}
+p.social{text-align:left; bottom:0;}
+
+/*page content*/
+div.page{margin: 0; border-top:solid black 1px; }
+div.container{max-width:1100px; margin:0px auto; padding: 50px}
+div.art{
+overflow:hidden;
+padding:1%;
+}
+img{width:100%; border-radius: 4px;}
+
+/*form content*/
+form{margin-top:20px;}
+textarea, input[type=text], select {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+input[type=submit],input[type=reset] {
+	margin-right:40px;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 4px;
+}
+input[type=submit]:hover,input[type=reset]:hover{opacity:0.6;}
